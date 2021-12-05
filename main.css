@@ -1,0 +1,150 @@
+body{
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+
+}
+.navbar{
+    background-color: rgba(234, 233, 233, 0.24);
+    width: 110%;
+    position: absolute;
+    height: 13%;
+    z-index: 1;
+}
+.navbar a{
+    text-decoration: none;
+    position: absolute;
+    color: black;
+}
+.nav-main{
+    top: 10%;
+    left: 10%;
+    color: black;
+    font-size: 3.5vw;
+    font-family: 'Bubblegum Sans';
+}
+.nav-home{
+    font-size: 1.5vw;
+    top: 30%;
+    left: 50%;
+    font-family: 'Courier Prime';
+}
+.nav-about{
+    font-size: 1.5vw;
+    left: 60%;
+    top: 30%;
+    font-family: 'Courier Prime';
+
+}
+.nav-contact{
+    top: 30%;   
+    font-size: 1.5vw;
+    left: 70%;
+    font-family: 'Courier Prime';
+
+}
+.shadow1{
+    position: absolute;
+    left: 286px;
+    width: 256px;
+    height: 177px;
+    top: -176px;
+    box-shadow: -71px -7px 250px 690px rgba(198, 0, 202, 0.15);
+}
+.shadow2{
+    position: absolute;
+    width: 256px;
+    height: 177px;
+    left: 1439px;
+    top: 1019px;
+    background: rgba(196, 196, 196, 0.01);
+    box-shadow: -414px -962px 250px 562px rgba(5, 205, 218, 0.15);
+}
+.watermark{
+    color:black;
+    font-size: 30vw;
+    opacity: 4%;
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    font-family: 'Permanent Marker'
+}
+.header-first{
+    color: black;
+    font-size: 3.5vw;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-family: 'Patrick Hand SC'
+}
+.header-second{
+    font-family: 'Patrick Hand SC';
+    color: purple;
+    font-size: 3.5vw;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.header a{
+    color: black;
+    font-family: 'Iceland';
+    font-size: 1.5vw;
+    border: 1.5px solid black;
+    padding-top: .5%;
+    padding-left: .5%;
+    padding-right: .5%;
+    padding-bottom: .5%;
+    position: absolute;
+    top: 31%;
+    left: 10.5%;
+    text-decoration: none;
+}
+.line{
+    opacity: 20%;
+    background-color: black;
+    width: 18%;
+    height: 0.4%;
+    position: absolute;
+    top: 29.5%;
+    left: 10.5%;
+}
+.subheader{
+    color:black;
+    position: absolute;
+    top: 30.5%;
+    left: 17.5%;
+    font-family: 'Patrick Hand SC';
+    font-size: 1.3vw;
+}
+
+a:hover{
+    color: white;
+}
+.header a:hover{
+    border-color: white;
+}
+
+.square{
+    border: 5px solid rgba(250, 0, 255, 0.1);
+    width: 7%;
+    height: 14%;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+.ellipse{
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid rgba(36, 0, 255, 0.1);
+    left: 50%;
+    top: 55%;
+    width: 7%;
+    height: 14%;
+}
